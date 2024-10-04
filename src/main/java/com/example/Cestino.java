@@ -11,7 +11,7 @@ public class Cestino {
         return this.num;
     }
 
-    public void addMoneta(int n){
+    public synchronized void addMoneta(int n){
         this.num += n;
     }
 }
